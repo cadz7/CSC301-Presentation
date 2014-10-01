@@ -1,0 +1,17 @@
+/*********************************************
+ * CUSTOM STYLES
+ *********************************************/
+
+ .smaller-main-font {
+ 	font-size: 3em !important;
+ }
+
+ .no-background {
+ 	background: rgba(255, 255, 255, 0) !important;
+ 	border: 0px !important;
+ }
+
+ .simulate-button {
+ 	cursor: pointer;
+ 	color: white;
+ }
