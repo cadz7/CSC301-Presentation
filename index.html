@@ -120,9 +120,9 @@
 				</section>
 				<section>
 					<section>
-						<h2>Working with HTML5</h2>
+						<h2>Working with < HTML ></h2>
 						<p>
-							HTML5 helps us build static Web Pages.
+							HTML helps us build static Web Pages.
 						</p>
 						<img class="no-background" height="238" src="http://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="Up arrow"/>
 						<p>
@@ -139,11 +139,12 @@
 						<br>
 						<h4>HTML5 Tags</h4>
 						<ul class="fragment">
-							<li class="fragment"><code>&lt;html&gt; </code></li>
-							<li class="fragment"><code>&lt;header&gt; </code></li>
-							<li class="fragment"><code>&lt;nav&gt; </code></li>
-							<li class="fragment"><code>&lt;article&gt; </code></li>
-							<li class="fragment"><code>&lt;footer&gt; </code></li>
+							<li class="fragment"><code>&lt;html&gt; &lt;/html&gt; </code></li>
+							<li class="fragment"><code>&lt;header&gt; &lt;/header&gt;</code></li>
+							<li class="fragment"><code>&lt;nav&gt; &lt;/nav&gt;</code></li>
+							<li class="fragment"><code>&lt;div&gt; &lt;/div&gt;</code></li>
+							<li class="fragment"><code>&lt;article&gt; &lt;/article&gt;</code></li>
+							<li class="fragment"><code>&lt;footer&gt; &lt;/footer&gt;</code></li>
 						</ul>
 					</section>
 				 </section>
@@ -159,8 +160,8 @@
 					<section>
 						<h2>Why do we use CSS?</h2>
 						<div class="fragment">
-							<img class="no-background" height="450" src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-nocss-device.png" alt="Up arrow"/>
-							<img class="no-background" height="450" src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-css-device.png" alt="Up arrow"/><br>
+							<img class="no-background" height="520" src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-nocss-device.png" alt="Up arrow"/>
+							<img class="no-background" height="520" src="https://developers.google.com/web/fundamentals/performance/critical-rendering-path/images/nytimes-css-device.png" alt="Up arrow"/><br>
 						</div>
 						<div class="fragment">
 							<a href="http://www.w3schools.com/css/demo_default.htm" target="_blank">Let's see an example</a>
@@ -181,15 +182,19 @@
 					</p>
 					<img class="no-background" height="238" src="http://www.ozekiphone.com/attachments/706/javascript_logo_without_title.png" alt="Up arrow"/>
 					</section>
-					<script type="text/javascript">
-					function add () {
-						var arr = document.getElementsByName('input');
-						console.log(arr[0].value);
-						var total = parseInt(arr[0].value)+ parseInt(arr[1].value);
-						console.log(total);
-						document.getElementById('answer').innerHTML = total;
-					}
+
+					<!-- Simple function to add 2 numbers -->
+
+						<script type="text/javascript">
+						function add () {
+							var arr = document.getElementsByName('input'); 
+							var total = parseInt(arr[0].value)+ parseInt(arr[1].value);
+							document.getElementById('answer').innerHTML = total;
+						}
 					</script>
+
+					<!-- Function End -->
+
 					<section>
 						<h3>What else does Javascript Offer</h3>
 						  <p><i>"JavaScript is object-oriented to its core, with powerful, flexible OOP capabilities"</i> - MDN</p><br>
@@ -205,10 +210,7 @@
 						<h3>Some cool stuff</h3>
 						<h4 class="fragment"> Click Events</h4><br>
 						<ul class="fragment">
-							<li class="fragments">
-								<a href="http://www.google.ca" target="_blank">Take me to Google!</a>
-							</li>
-							<li class="fragment"><a href="?transition=fade/#/5/1" target="_blank">Change the transition Animation to Fade!</a></li>
+							<li class="fragment"><a href="?transition=fade/#/5/2">Change the transition Animation to Fade!</a></li>
 							<li class="fragment"><a href="?theme=solarized#/5/2">Change the background to light.</a></li>
 						</ul>
 					</section>
